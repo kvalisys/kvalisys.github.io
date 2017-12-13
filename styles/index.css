@@ -1,0 +1,146 @@
+body {
+    background-color:   #ffffff;
+    text-align:         center;
+    font-family:        "Tahoma", sans-serif;
+    font-size:          9pt;
+    color:              black;
+}
+
+#mainTitle {
+    background-image:   url("../images/title.png");
+    width:              840px;
+    height:             171px;
+}
+
+#mainMenu {
+    background-image:   url("../images/menu.png");
+    width:              840px;
+    height:             31px;
+    text-align:         center;
+}
+
+#mainPage {
+    width:              840px;
+    background:         url("../images/mainpage.png") repeat-y top left;
+    text-align:         left;
+}
+
+a img {
+    border:             0;
+}
+
+#mainTitle, #mainMenu, #mainPage, #mainParts, #footer {
+    margin-left:        auto;
+    margin-right:       auto;
+}
+
+.partText {
+    padding-top:        15px;
+    padding-left:       30px;
+    padding-right:      30px;
+}
+
+.partSection {
+    padding-left:       20px;
+    padding-bottom:     10px;
+    width:              600px;
+}
+
+.partWithPic {
+    float:              left;
+    width:              420px;
+    padding-left:       20px;
+    padding-bottom:     10px;
+    padding-top:        10px;
+}
+
+.pic {
+    float:              right;
+    width:              300px;
+    padding-left:       30px;
+    padding-right:      10px;
+}
+
+b {
+    color:              #354968;
+}
+
+ul {
+    list-style-image:   url("../images/bullet.gif");
+}
+
+a {
+    text-decoration:    none;
+    color:              #666;
+}
+
+a:hover {
+    text-decoration:    underline;
+    color:              #333;
+}
+
+#footer {
+    width:              840px;
+    height:             80px;
+    background:         url("../images/footer.png") no-repeat bottom left;
+}
+
+#footerText {
+    text-align:         right;
+    font-size:          10px;
+    padding-right:      50px;
+    padding-bottom:     10px;
+    padding-top:        30px;
+}
+
+
+
+
+/*** Nav bar styles ***/
+
+ul.nav,
+.nav ul{
+    margin:             0;
+    padding:            0;
+    list-style-type:    none;
+    display:            inline;
+}
+
+ul.nav{
+    height:             31px;
+    width:              799px;
+    margin:             auto;
+    table-layout:       fixed;
+    display:            table;
+}
+
+.nav li{
+    display:            table-cell;
+    position:           relative;
+}
+
+.nav li a{
+    display:            block;
+    padding:            7px;
+    text-decoration:    none;
+    font-weight:        bold;
+    font-size:          14px;
+    color:              #000;
+}
+
+#active {
+    color:              #FFE6CC;
+    background-color:   #D5A97D;
+}
+
+ul.nav li:hover,
+.nav ul li a:hover{
+    background-color:   #D5A97D;
+}
+
+ul.nav li:active,
+.nav ul li a:active{
+    background-color:   #70502F;
+}
+
+
